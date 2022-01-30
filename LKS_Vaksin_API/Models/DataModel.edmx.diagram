@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="77cc612a620545fbbc4476ada67d12c7" Name="Diagram1">
+        <EntityTypeShape EntityType="LKS_VaksinModel.Admin" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_VaksinModel.detail_vaksinasi" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_VaksinModel.jenis_vaksin" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_VaksinModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_VaksinModel.vaksinasi" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_VaksinModel.warga" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="LKS_VaksinModel.FK__detail_va__id_do__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_VaksinModel.FK__vaksinasi__id_us__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_VaksinModel.FK__warga__id_user__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_VaksinModel.FK__detail_va__id_je__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_VaksinModel.FK__detail_va__id_va__2B3F6F97" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
